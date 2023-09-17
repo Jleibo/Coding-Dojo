@@ -1,0 +1,41 @@
+.kitty {
+    height: 200px;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+    background-color: chocolate;
+    padding: 10px;
+}
+h1 {
+    margin-bottom: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.Row1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+
+}
+.Row2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+}
+.Row3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+}
+p {
+    text-align: center;
+    font-family: Arial;
+}

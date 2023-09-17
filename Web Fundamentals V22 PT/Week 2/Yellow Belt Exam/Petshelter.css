@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(20, 179, 179);
+    border: 2px solid black;
+}
+
+.header-top {
+    margin: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3em;
+}
+
+.heart {
+    height: fit-content;
+    width: 100px;
+}
+
+.nav {
+    width: 500px;
+    height: fit-content;
+    font-size: 2em;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav ul {
+    width: 290px;
+    height: 47.5px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.donate-btn {
+    text-align: center;
+    height: fit-content;
+    width: 150px;
+    font-size: 1em;
+    border-radius: 35px;
+    background-color: white;
+    font-weight: 900;
+    color: purple;
+    border: 2px solid purple;
+}
+
+.header-bottom {
+    margin: 0 200px 30px;
+    display: flex;
+    font-size: 1.5em;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.pet-choice {
+    margin-top: 5px;
+}
+
+.locator {
+    margin-top: 5px;
+}
+
+.icon {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.dropdown {
+    vertical-align: top;
+    font-size: 1em;
+}
+
+input {
+    vertical-align: top;
+    font-size: 1em;
+}
+
+.submit-btn {
+    font-size: 1em;
+    padding: 5px;
+    color: white;
+    background-color: purple;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-bottom: 2px;
+}
+
+.main {
+    margin: 0px auto;
+    display: block;
+    color: black;
+    background-color: white;
+}
+
+.profile {
+    height: 200px;
+    margin: 40px 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgray;
+    border-radius: 35px;
+}
+
+.pet-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 35px;
+}
+
+.profile-body {
+    display: flex;
+    text-align: left;
+}
+
+.text {
+    margin-left: 40px;
+    font-size: 2.2em;
+}
+
+.like-btn {
+    height: 35px;
+    width: 200px;
+    color: white;
+    font-size: 1.5em;
+    background-color: aqua;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.pet-counter {
+    margin: 0 auto;
+    font-size:  1.5rem;
+    text-align: right;
+}
